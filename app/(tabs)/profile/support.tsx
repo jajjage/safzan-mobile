@@ -10,14 +10,14 @@ export default function SupportScreen() {
   const colorScheme = useColorScheme();
   const colors = colorScheme === "dark" ? darkColors : lightColors;
   const WHATSAPP_NUMBER = "+2347033776056"; // Replace with your support WhatsApp number
-  const WHATSAPP_MESSAGE = encodeURIComponent("Hello Nexus Support, I need help with my account.");
+  const WHATSAPP_MESSAGE = encodeURIComponent("Hello Safzan Support, I need help with my account.");
 
   const supportItems = [
     {
       icon: "envelope",
       title: "Email Support",
-      description: "support@nexus.ng",
-      action: () => Linking.openURL("mailto:nexuskano99@gmail.com"),
+      description: "support@safzan.ng",
+      action: () => Linking.openURL("mailto:safzankano99@gmail.com"),
     },
     {
       icon: "phone",
@@ -35,7 +35,7 @@ export default function SupportScreen() {
       icon: "book",
       title: "Help Center",
       description: "Browse FAQs and guides",
-      action: () => Linking.openURL("https://help.nexusdatasub.com"),
+      action: () => Linking.openURL("https://help.safzandatasub.com"),
     },
   ];
 

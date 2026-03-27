@@ -26,14 +26,14 @@ import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
 import '../global.css';
 
 /**
- * Nexus Light Theme for React Navigation
- * Uses the golden Nexus brand colors
+ * Safzan Light Theme for React Navigation
+ * Uses the Safzan brand colors
  */
-const NexusLightTheme = {
+const SafzanLightTheme = {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
-    primary: lightColors.primary,           // #E69E19 - Nexus Gold
+    primary: lightColors.primary,           // #E69E19 - Safzan Gold
     background: lightColors.background,     // #FAFAFA
     card: lightColors.card,                 // #FAFAFA
     text: lightColors.foreground,           // #2E2E33
@@ -43,14 +43,14 @@ const NexusLightTheme = {
 };
 
 /**
- * Nexus Dark Theme for React Navigation
- * Uses the golden Nexus brand colors with dark backgrounds
+ * Safzan Dark Theme for React Navigation
+ * Uses the Safzan brand colors with dark backgrounds
  */
-const NexusDarkTheme = {
+const SafzanDarkTheme = {
   ...DarkTheme,
   colors: {
     ...DarkTheme.colors,
-    primary: darkColors.primary,            // #E69E19 - Nexus Gold
+    primary: darkColors.primary,            // #E69E19 - Safzan Gold
     background: darkColors.background,      // #182125
     card: darkColors.card,                  // #182125
     text: darkColors.foreground,            // #FCF3E1
@@ -145,7 +145,7 @@ function RootLayoutNav() {
             <SoftLockProvider>
             <AppInitializer />
             <StatusBar style={isDark ? 'light' : 'dark'} />
-            <NavThemeProvider value={isDark ? NexusDarkTheme : NexusLightTheme}>
+            <NavThemeProvider value={isDark ? SafzanDarkTheme : SafzanLightTheme}>
               <Stack screenOptions={{ animation: 'slide_from_right' }}>
                 <Stack.Screen name="index" options={{ headerShown: false }} />
                 <Stack.Screen name="(setup)" options={{ headerShown: false }} />

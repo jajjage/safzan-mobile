@@ -66,7 +66,7 @@ export function SuccessReceipt({ data, onDone }: SuccessReceiptProps) {
     }
 
     // Fallback to text share
-    const message = `🎉 Nexus Transaction Receipt\n\n📱 ${data.productName}\n📞 ${data.recipientPhone}\n💰 ₦${data.amount.toLocaleString()}\n📅 ${formattedDate}\n🔖 Ref: ${data.transactionId}\n\n✅ Transaction Successful!`;
+    const message = `🎉 Safzan Transaction Receipt\n\n📱 ${data.productName}\n📞 ${data.recipientPhone}\n💰 ₦${data.amount.toLocaleString()}\n📅 ${formattedDate}\n🔖 Ref: ${data.transactionId}\n\n✅ Transaction Successful!`;
 
     await Share.share({
       message,

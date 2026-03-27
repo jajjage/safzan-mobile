@@ -1,13 +1,13 @@
 /**
- * Nexus Colors for Expo/React Navigation
+ * Safzan Colors for Expo/React Navigation
  * 
  * This file provides colors in the format expected by Expo and React Navigation.
- * The colors are derived from the Nexus color palette.
+ * The colors are derived from the Safzan color palette.
  */
 
 import { darkColors, lightColors } from './palette';
 
-const tintColorLight = lightColors.primary; // #E69E19 - Nexus Gold
+const tintColorLight = lightColors.primary; // #E69E19 - Safzan Gold
 const tintColorDark = lightColors.primary;  // #E69E19 - Same in dark mode
 
 export default {

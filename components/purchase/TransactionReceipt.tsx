@@ -163,7 +163,7 @@ export const TransactionReceipt = React.forwardRef<View, TransactionReceiptProps
 
         {/* Footer */}
         <View style={styles.footer}>
-          <Text style={styles.footerText}>nexus-mobile.com</Text>
+          <Text style={styles.footerText}>safzan-mobile.com</Text>
         </View>
       </View>
     );

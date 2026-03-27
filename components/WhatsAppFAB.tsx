@@ -12,7 +12,7 @@ export const WhatsAppFAB = () => {
     // Example Nigerian/General number, this can be customized based on requirements
     const phoneNumber = process.env.EXPO_PUBLIC_WHATSAPP_NUMBER || '2347033776056'; 
     const userName = user?.fullName || 'User';
-    const message = `Hello Nexus Data Support! 👋\n\nI am ${userName}, reaching out from your mobile app and I need some assistance with... `;
+    const message = `Hello Safzan Data Support! 👋\n\nI am ${userName}, reaching out from your mobile app and I need some assistance with... `;
     const url = `whatsapp://send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
     
     try {

@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    /* Light Mode - Nexus Color Scheme */
+    /* Light Mode - Safzan Color Scheme */
     
     /* Background & Foreground */
     --background: 0 0% 98%; /* #FAFAFA */
@@ -18,7 +18,7 @@
     --popover: 0 0% 98%; /* #FAFAFA */
     --popover-foreground: 240 10% 20%; /* #2E2E33 */
     
-    /* Primary - Nexus Gold */
+    /* Primary - Safzan Gold */
     --primary: 39 80% 50%; /* #E69E19 */
     --primary-foreground: 39 100% 98%; /* #FFFCF5 */
     
@@ -219,7 +219,7 @@
   }
 
   .dark:root {
-    /* Dark Mode - Nexus Color Scheme */
+    /* Dark Mode - Safzan Color Scheme */
     
     /* Background & Foreground */
     --background: 192 20% 12%; /* #182125 */
@@ -233,7 +233,7 @@
     --popover: 192 20% 12%; /* #182125 */
     --popover-foreground: 39 90% 90%; /* #FCF3E1 */
     
-    /* Primary - Nexus Gold (Same as Light) */
+    /* Primary - Safzan Gold (Same as Light) */
     --primary: 39 80% 50%; /* #E69E19 */
     --primary-foreground: 39 100% 98%; /* #FFFCF5 */
     

@@ -4,7 +4,7 @@ import { Redirect, Stack } from "expo-router";
 import { useEffect, useState } from "react";
 import { ActivityIndicator, View } from "react-native";
 
-const ONBOARDING_KEY = "@nexus_onboarding_complete";
+const ONBOARDING_KEY = "@safzan_onboarding_complete";
 
 export default function OnboardingLayout() {
   const [isLoading, setIsLoading] = useState(true);

@@ -18,7 +18,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 const { width, height } = Dimensions.get("window");
 
-const ONBOARDING_KEY = "@nexus_onboarding_complete";
+const ONBOARDING_KEY = "@safzan_onboarding_complete";
 
 interface SlideData {
   id: string;

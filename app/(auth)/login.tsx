@@ -125,7 +125,7 @@ export default function LoginScreen() {
               <Image
                 source={require("@/assets/images/icon.png")}
                 className="w-16 h-16"
-                alt="Nexus Logo"
+                alt="Safzan Logo"
                 resizeMode="contain"
               />
             </Center>

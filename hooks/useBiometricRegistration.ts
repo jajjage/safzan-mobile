@@ -85,14 +85,15 @@ export function useBiometricRegistration() {
         console.log("[BiometricReg] Biometric verification successful");
 
         // Step 4: Build WebAuthn registration response
-        // Use RP ID from options (e.g. nexusdatasub.com), NOT the full origin URL
+        // Use RP ID from options, not the full origin URL
         console.log("[BiometricReg] Building attestation response");
-        const rpId = options.rp?.id || "nexusdatasub.com";
+        const rpId = options.rp?.id || "safzandatasub.com";
         
         const attestationResponse = await buildWebAuthnAttestationResponse(
           options.challenge,
-          '',  // Let the function generate a proper credential ID
-          rpId  // Pass domain only, webauthn-mobile.ts will prepend https://
+          options.user?.id || '',
+          options.user?.name || options.user?.displayName || 'Safzan Data',
+          rpId
         );
 
         console.log("[BiometricReg] Attestation response structure:", {

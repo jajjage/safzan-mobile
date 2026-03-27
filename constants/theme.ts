@@ -1,5 +1,5 @@
 /**
- * Nexus Theme Constants
+ * Safzan Theme Constants
  * 
  * Re-exports the complete color palette and design tokens.
  * This file provides backward compatibility with existing imports.

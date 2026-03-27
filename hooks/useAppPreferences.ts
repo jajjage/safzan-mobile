@@ -6,7 +6,7 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useCallback, useEffect, useState } from "react";
 
-const PREFERENCES_KEY = "@nexus_app_preferences";
+const PREFERENCES_KEY = "@safzan_app_preferences";
 
 export interface AppPreferences {
   hapticsEnabled: boolean;

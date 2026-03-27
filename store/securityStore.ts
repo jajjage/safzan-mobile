@@ -55,7 +55,7 @@ export const useSecurityStore = create<SecurityState>()(
       },
     }),
     {
-      name: 'nexus-security-storage',
+      name: 'safzan-security-storage',
       storage: createJSONStorage(() => AsyncStorage),
     }
   )

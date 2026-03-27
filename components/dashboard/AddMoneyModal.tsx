@@ -57,7 +57,7 @@ export function AddMoneyModal({ isVisible, onClose }: AddMoneyModalProps) {
     
     try {
       await Share.share({
-        message: `Here are my Nexus account details:\nBank: ${user.virtualAccountBankName}\nAccount Number: ${user.virtualAccountNumber}\nAccount Name: ${user.virtualAccountAccountName}`,
+        message: `Here are my Safzan account details:\nBank: ${user.virtualAccountBankName}\nAccount Number: ${user.virtualAccountNumber}\nAccount Name: ${user.virtualAccountAccountName}`,
       });
     } catch (error) {
      toast.error('Could not share details');

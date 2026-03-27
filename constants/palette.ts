@@ -1,7 +1,7 @@
 /**
- * Nexus App Color Scheme
+ * Safzan App Color Scheme
  *
- * This file contains the complete color palette for the Nexus app,
+ * This file contains the complete color palette for the Safzan app,
  * extracted from the web application for consistency across platforms.
  *
  * @module constants/palette
@@ -23,7 +23,7 @@ export const lightColors = {
   popover: '#FAFAFA',
   popoverForeground: '#2E2E33',
 
-  // Primary (Nexus Gold)
+  // Primary (Safzan Gold)
   primary: '#E69E19',
   primaryForeground: '#FFFCF5',
   primaryLight: '#F4B84D',      // Lighter variant for pressed states
@@ -109,7 +109,7 @@ export const darkColors = {
   popover: '#182125',
   popoverForeground: '#FCF3E1',
 
-  // Primary (Nexus Gold)
+  // Primary (Safzan Gold)
   primary: '#E69E19',
   primaryForeground: '#FFFCF5',
   primaryLight: '#F4B84D',

@@ -28,7 +28,7 @@ export async function buildWebAuthnAttestationResponse(
   challenge: string,
   userId: string,
   userName: string,
-  rpId: string = "nexusdatasub.com"
+  rpId: string = "safzandatasub.com"
 ): Promise<WebAuthnRegistrationResponse> {
   try {
     console.log("[Passkey] Starting registration...", isExpoGo ? "(Expo Go Mock)" : "(Native)");
@@ -71,7 +71,7 @@ export async function buildWebAuthnAttestationResponse(
     const result = await Passkey.create({
       challenge: challenge,
       rp: {
-        name: "Nexus Data",
+        name: "Safzan Data",
         id: rpId,
       },
       user: {
@@ -127,7 +127,7 @@ export async function buildWebAuthnAttestationResponse(
  */
 export async function buildWebAuthnAssertion(
   challenge: string,
-  rpId: string = "nexusdatasub.com",
+  rpId: string = "safzandatasub.com",
   allowCredentials?: { id: string; type: string; transports?: string[] }[]
 ): Promise<WebAuthnAuthenticationResponse> {
   try {

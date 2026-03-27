@@ -85,7 +85,7 @@ export default function ForgotPasswordScreen() {
                 <Image
                   source={require("@/assets/images/icon.png")}
                   className="w-12 h-12"
-                  alt="Nexus Logo"
+                  alt="Safzan Logo"
                 />
               </HStack>
             </Center>

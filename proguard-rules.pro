@@ -1,4 +1,4 @@
-# Nexus Mobile - ProGuard Rules for R8 Minification
+# Safzan Mobile - ProGuard Rules for R8 Minification
 
 # Coil3 Image Library - Minimal required classes for image loading
 -keep class coil3.PlatformContext

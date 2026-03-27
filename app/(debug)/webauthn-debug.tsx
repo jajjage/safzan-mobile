@@ -10,7 +10,12 @@ export default function WebAuthnDebugScreen() {
   const runAttestationTest = async () => {
     try {
       append('Running attestation (dev)');
-      const att = await buildWebAuthnAttestationResponse('test-challenge-dev', '', 'nexusdatasub.com');
+      const att = await buildWebAuthnAttestationResponse(
+        'test-challenge-dev',
+        'debug-user',
+        'Debug User',
+        'safzandatasub.com'
+      );
       append(`Attestation (dev) id=${att.id} attestationObject.length=${att.response.attestationObject.length}`);
     } catch (e: any) {
       append('Attestation dev error: ' + e.message);
@@ -20,7 +25,7 @@ export default function WebAuthnDebugScreen() {
   const runAssertionTest = async () => {
     try {
       append('Running assertion (dev)');
-      const asr = await buildWebAuthnAssertion('test-challenge-assert', 'nexusdatasub.com');
+      const asr = await buildWebAuthnAssertion('test-challenge-assert', 'safzandatasub.com');
       append(`Assertion (dev) signature length=${asr.response.signature.length}`);
     } catch (e: any) {
       append('Assertion dev error: ' + e.message);

@@ -18,7 +18,7 @@ interface ThemeContextType {
 }
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
-const THEME_STORAGE_KEY = "@nexus_app_preferences";
+const THEME_STORAGE_KEY = "@safzan_app_preferences";
 
 interface ThemeProviderProps {
   children: ReactNode;

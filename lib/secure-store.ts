@@ -1,10 +1,10 @@
 // lib/secure-store.ts
 import * as SecureStore from "expo-secure-store";
 
-const ACCESS_TOKEN_KEY = "nexus_access_token";
-const REFRESH_TOKEN_KEY = "nexus_refresh_token";
-const USER_CACHE_KEY = "nexus_user_cache";
-const USER_ROLE_KEY = "nexus_user_role";
+const ACCESS_TOKEN_KEY = "safzan_access_token";
+const REFRESH_TOKEN_KEY = "safzan_refresh_token";
+const USER_CACHE_KEY = "safzan_user_cache";
+const USER_ROLE_KEY = "safzan_user_role";
 
 export const tokenStorage = {
   async getAccessToken(): Promise<string | null> {
