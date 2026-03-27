@@ -198,8 +198,8 @@ export default function TransactionsScreen() {
           <RefreshControl
             refreshing={refreshing}
             onRefresh={onRefresh}
-            colors={["#E69E19"]}
-            tintColor="#E69E19"
+            colors={["#275430"]}
+            tintColor="#275430"
           />
         }
         showsVerticalScrollIndicator={false}
@@ -211,7 +211,7 @@ export default function TransactionsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FAFAFA",
+    backgroundColor: "#FFFFFF",
   },
   header: {
     flexDirection: "row",
@@ -248,7 +248,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#F5F5F5",
   },
   filterTabActive: {
-    backgroundColor: "#E69E19",
+    backgroundColor: "#275430",
   },
   filterText: {
     fontSize: 14,

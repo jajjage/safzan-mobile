@@ -225,7 +225,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: lightColors.primary, // #E69E19
+    backgroundColor: lightColors.primary, // #275430
     paddingVertical: 16,
     borderRadius: 12,
     gap: 8,
@@ -245,7 +245,7 @@ const styles = StyleSheet.create({
   shareButtonText: {
     fontSize: 16,
     fontWeight: "600",
-    color: "#000000", // Black text on Gold button
+    color: "#000000", // Black text on primary button
   },
   downloadButtonText: {
     fontSize: 16,

@@ -246,7 +246,7 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   shareButton: {
-    backgroundColor: '#E69E19',
+    backgroundColor: '#275430',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',

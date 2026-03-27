@@ -5,38 +5,38 @@
 @layer base {
   :root {
     /* Light Mode - Safzan Color Scheme */
-    
+
     /* Background & Foreground */
-    --background: 0 0% 98%; /* #FAFAFA */
-    --foreground: 240 10% 20%; /* #2E2E33 */
-    
+    --background: 0 0% 100%; /* #FFFFFF */
+    --foreground: 20 14% 4%; /* #0C0A09 */
+
     /* Card */
-    --card: 0 0% 98%; /* #FAFAFA */
-    --card-foreground: 240 10% 20%; /* #2E2E33 */
-    
+    --card: 0 0% 100%; /* #FFFFFF */
+    --card-foreground: 20 14% 4%; /* #0C0A09 */
+
     /* Popover */
-    --popover: 0 0% 98%; /* #FAFAFA */
-    --popover-foreground: 240 10% 20%; /* #2E2E33 */
-    
-    /* Primary - Safzan Gold */
-    --primary: 39 80% 50%; /* #E69E19 */
-    --primary-foreground: 39 100% 98%; /* #FFFCF5 */
-    
+    --popover: 0 0% 100%; /* #FFFFFF */
+    --popover-foreground: 20 14% 4%; /* #0C0A09 */
+
+    /* Primary - Safzan Green */
+    --primary: 133 37% 24%; /* #275430 */
+    --primary-foreground: 60 9% 98%; /* #FAFAF9 */
+
     /* Secondary */
-    --secondary: 192 10% 85%; /* #D4DADC */
-    --secondary-foreground: 192 20% 15%; /* #1F2A2D */
-    
+    --secondary: 60 5% 96%; /* #F5F5F4 */
+    --secondary-foreground: 25 6% 45%; /* #7A726C */
+
     /* Muted */
-    --muted: 192 5% 92%; /* #EAEBEC */
-    --muted-foreground: 192 10% 35%; /* #525D60 */
-    
+    --muted: 60 5% 96%; /* #F5F5F4 */
+    --muted-foreground: 25 6% 45%; /* #7A726C */
+
     /* Accent */
-    --accent: 192 5% 92%; /* #EAEBEC */
-    --accent-foreground: 240 10% 20%; /* #2E2E33 */
-    
+    --accent: 60 5% 96%; /* #F5F5F4 */
+    --accent-foreground: 25 6% 45%; /* #7A726C */
+
     /* Destructive - Red */
-    --destructive: 0 80% 55%; /* #E63636 */
-    --destructive-foreground: 0 0% 98%; /* #FAFAFA */
+    --destructive: 0 95% 50%; /* #F90606 */
+    --destructive-foreground: 60 9% 98%; /* #FAFAF9 */
     
     /* Success - Teal */
     --success: 173 58% 39%; /* #2A9D8F */
@@ -51,32 +51,32 @@
     --info-foreground: 0 0% 100%; /* #FFFFFF */
     
     /* Border & Input */
-    --border: 192 10% 85%; /* #D4DADC */
-    --input: 192 10% 85%; /* #D4DADC */
+    --border: 20 6% 90%; /* #E7E5E4 */
+    --input: 20 6% 90%; /* #E7E5E4 */
     --input-background: 0 0% 100%; /* #FFFFFF */
-    
+
     /* Focus Ring */
-    --ring: 39 80% 50%; /* #E69E19 */
-    
+    --ring: 58 83% 44%; /* #CDC713 */
+
     /* Radius */
-    --radius: 0.5rem;
-    
+    --radius: 0.95rem;
+
     /* Sidebar */
-    --sidebar-background: 0 0% 95%; /* #F2F2F2 */
-    --sidebar-foreground: 240 10% 38%; /* #585862 */
-    --sidebar-primary: 39 80% 47%; /* #D99316 */
-    --sidebar-primary-foreground: 39 100% 0%; /* #000000 */
-    --sidebar-accent: 192 5% 89%; /* #E1E3E4 */
-    --sidebar-accent-foreground: 240 10% 20%; /* #2E2E33 */
-    --sidebar-border: 192 10% 82%; /* #CBCFD1 */
-    --sidebar-ring: 39 80% 47%; /* #D99316 */
-    
+    --sidebar-background: 0 0% 97%; /* #F7F7F7 */
+    --sidebar-foreground: 20 14% 37%; /* #6C5A51 */
+    --sidebar-primary: 58 83% 25%; /* #75710B */
+    --sidebar-primary-foreground: 60 9% 98%; /* #FAFAF9 */
+    --sidebar-accent: 60 5% 75%; /* #C2C2BC */
+    --sidebar-accent-foreground: 25 6% 0%; /* #000000 */
+    --sidebar-border: 20 6% 87%; /* #E0DDDC */
+    --sidebar-ring: 58 83% 41%; /* #BFBA12 */
+
     /* Charts */
-    --chart-1: 39 80% 50%; /* #E69E19 - Primary Gold */
-    --chart-2: 12 70% 50%; /* #D95C33 - Orange-Red */
-    --chart-3: 173 58% 39%; /* #2A9D8F - Teal */
-    --chart-4: 43 74% 66%; /* #E9C46A - Light Gold */
-    --chart-5: 27 87% 67%; /* #F4A261 - Light Orange */
+    --chart-1: 58 83% 44%; /* #CDC713 */
+    --chart-2: 60 5% 96%; /* #F5F5F4 */
+    --chart-3: 60 5% 96%; /* #F5F5F4 */
+    --chart-4: 60 5% 96%; /* #F5F5F4 */
+    --chart-5: 0 0% 100%; /* #FFFFFF */
     
     /* NativeWind CSS Variables */
     --color-primary-0: 255 255 255;
@@ -84,9 +84,9 @@
     --color-primary-100: 254 243 224;
     --color-primary-200: 252 227 180;
     --color-primary-300: 249 203 130;
-    --color-primary-400: 244 184 77;
-    --color-primary-500: 230 158 25; /* #E69E19 */
-    --color-primary-600: 194 133 23;
+    --color-primary-400: 90 138 101;
+    --color-primary-500: 39 84 48; /* #275430 */
+    --color-primary-600: 27 55 33;
     --color-primary-700: 158 108 19;
     --color-primary-800: 122 84 15;
     --color-primary-900: 86 59 10;
@@ -96,7 +96,7 @@
     --color-secondary-50: 250 251 251;
     --color-secondary-100: 244 246 247;
     --color-secondary-200: 224 230 232;
-    --color-secondary-300: 212 218 220; /* #D4DADC */
+    --color-secondary-300: 231 229 228; /* #E7E5E4 */
     --color-secondary-400: 175 186 190;
     --color-secondary-500: 142 157 162;
     --color-secondary-600: 110 128 134;
@@ -164,9 +164,9 @@
     --color-typography-300: 212 212 216;
     --color-typography-400: 161 161 170;
     --color-typography-500: 113 113 122;
-    --color-typography-600: 82 93 96; /* #525D60 */
+    --color-typography-600: 122 114 108; /* #7A726C */
     --color-typography-700: 63 63 70;
-    --color-typography-800: 46 46 51; /* #2E2E33 */
+    --color-typography-800: 12 10 9; /* #0C0A09 */
     --color-typography-900: 39 39 42;
     --color-typography-950: 24 24 27;
     
@@ -174,7 +174,7 @@
     --color-outline-50: 250 250 250;
     --color-outline-100: 244 244 245;
     --color-outline-200: 228 228 231;
-    --color-outline-300: 212 218 220; /* #D4DADC */
+    --color-outline-300: 231 229 228; /* #E7E5E4 */
     --color-outline-400: 161 161 170;
     --color-outline-500: 113 113 122;
     --color-outline-600: 82 82 91;
@@ -184,9 +184,9 @@
     --color-outline-950: 9 9 11;
     
     --color-background-0: 255 255 255;
-    --color-background-50: 250 250 250; /* #FAFAFA */
+    --color-background-50: 250 250 250; /* #FFFFFF */
     --color-background-100: 244 244 245;
-    --color-background-200: 234 235 236; /* #EAEBEC */
+    --color-background-200: 245 245 244; /* #F5F5F4 */
     --color-background-300: 228 228 231;
     --color-background-400: 161 161 170;
     --color-background-500: 113 113 122;
@@ -201,7 +201,7 @@
     --color-background-success: 240 253 250;
     --color-background-info: 239 246 255;
     
-    --color-indicator-primary: 230 158 25; /* #E69E19 */
+    --color-indicator-primary: 39 84 48; /* #275430 */
     --color-indicator-info: 59 130 246;
     --color-indicator-error: 230 54 54;
     
@@ -209,8 +209,8 @@
     --color-tertiary-100: 254 243 224;
     --color-tertiary-200: 252 227 180;
     --color-tertiary-300: 249 203 130;
-    --color-tertiary-400: 244 184 77;
-    --color-tertiary-500: 194 133 23; /* #C28517 - Primary Dark */
+    --color-tertiary-400: 90 138 101;
+    --color-tertiary-500: 27 55 33; /* #1B3721 - Primary Dark */
     --color-tertiary-600: 158 108 19;
     --color-tertiary-700: 122 84 15;
     --color-tertiary-800: 86 59 10;
@@ -220,38 +220,38 @@
 
   .dark:root {
     /* Dark Mode - Safzan Color Scheme */
-    
+
     /* Background & Foreground */
-    --background: 192 20% 12%; /* #182125 */
-    --foreground: 39 90% 90%; /* #FCF3E1 */
-    
+    --background: 0 0% 15%; /* #262626 */
+    --foreground: 20 14% 74%; /* #C6BAB3 */
+
     /* Card */
-    --card: 192 20% 12%; /* #182125 */
-    --card-foreground: 39 90% 90%; /* #FCF3E1 */
-    
+    --card: 0 0% 25%; /* #404040 */
+    --card-foreground: 20 14% 74%; /* #C6BAB3 */
+
     /* Popover */
-    --popover: 192 20% 12%; /* #182125 */
-    --popover-foreground: 39 90% 90%; /* #FCF3E1 */
-    
-    /* Primary - Safzan Gold (Same as Light) */
-    --primary: 39 80% 50%; /* #E69E19 */
-    --primary-foreground: 39 100% 98%; /* #FFFCF5 */
-    
+    --popover: 0 0% 15%; /* #262626 */
+    --popover-foreground: 20 14% 74%; /* #C6BAB3 */
+
+    /* Primary - Safzan Green */
+    --primary: 133 37% 24%; /* #275430 */
+    --primary-foreground: 210 40% 98%; /* #F8FAFC */
+
     /* Secondary */
-    --secondary: 192 10% 25%; /* #3A4346 */
-    --secondary-foreground: 192 30% 85%; /* #CDD8DC */
-    
+    --secondary: 60 5% 31%; /* #53534B */
+    --secondary-foreground: 25 6% 95%; /* #F3F2F1 */
+
     /* Muted */
-    --muted: 192 5% 18%; /* #2B2F30 */
-    --muted-foreground: 39 50% 60%; /* #CC9F59 */
-    
+    --muted: 60 5% 26%; /* #46463F */
+    --muted-foreground: 25 6% 95%; /* #F3F2F1 */
+
     /* Accent */
-    --accent: 192 5% 18%; /* #2B2F30 */
-    --accent-foreground: 39 90% 90%; /* #FCF3E1 */
-    
+    --accent: 60 5% 31%; /* #53534B */
+    --accent-foreground: 25 6% 95%; /* #F3F2F1 */
+
     /* Destructive - Red */
-    --destructive: 0 80% 50%; /* #E62E2E */
-    --destructive-foreground: 39 90% 98%; /* #FFFEF5 */
+    --destructive: 0 95% 20%; /* #630303 */
+    --destructive-foreground: 210 40% 98%; /* #F8FAFC */
     
     /* Success - Teal */
     --success: 173 58% 39%; /* #2A9D8F */
@@ -266,38 +266,41 @@
     --info-foreground: 0 0% 100%; /* #FFFFFF */
     
     /* Border & Input */
-    --border: 192 10% 25%; /* #3A4346 */
-    --input: 192 10% 25%; /* #3A4346 */
-    --input-background: 195 12% 18%; /* #232A2D */
-    
+    --border: 20 6% 40%; /* #6C6460 */
+    --input: 20 6% 40%; /* #6C6460 */
+    --input-background: 0 0% 25%; /* #404040 */
+
     /* Focus Ring */
-    --ring: 39 80% 50%; /* #E69E19 */
-    
+    --ring: 58 83% 44%; /* #CDC713 */
+
+    /* Radius */
+    --radius: 0.5rem;
+
     /* Sidebar */
-    --sidebar-background: 192 20% 4%; /* #0A0D0E */
-    --sidebar-foreground: 39 90% 38%; /* #B87A13 */
-    --sidebar-primary: 39 80% 25%; /* #735010 */
-    --sidebar-primary-foreground: 39 100% 98%; /* #FFFCF5 */
-    --sidebar-accent: 192 5% 10%; /* #181A1A */
-    --sidebar-accent-foreground: 39 90% 90%; /* #FCF3E1 */
-    --sidebar-border: 192 10% 17%; /* #262C2E */
-    --sidebar-ring: 39 80% 42%; /* #C28517 */
-    
+    --sidebar-background: 0 0% 7%; /* #121212 */
+    --sidebar-foreground: 20 14% 56%; /* #9F8A7F */
+    --sidebar-primary: 58 83% 25%; /* #75710B */
+    --sidebar-primary-foreground: 210 40% 98%; /* #F8FAFC */
+    --sidebar-accent: 60 5% 23%; /* #3E3E38 */
+    --sidebar-accent-foreground: 25 6% 95%; /* #F3F2F1 */
+    --sidebar-border: 20 6% 32%; /* #56504D */
+    --sidebar-ring: 58 83% 36%; /* #A8A310 */
+
     /* Charts */
-    --chart-1: 39 70% 40%; /* #AD7D14 - Darker Gold */
-    --chart-2: 27 87% 67%; /* #F4A261 - Light Orange */
-    --chart-3: 12 76% 61%; /* #E76F51 - Coral */
-    --chart-4: 43 74% 66%; /* #E9C46A - Light Gold */
-    --chart-5: 173 58% 39%; /* #2A9D8F - Teal */
+    --chart-1: 58 83% 14%; /* #413F06 */
+    --chart-2: 60 5% 66%; /* #ADADA4 */
+    --chart-3: 60 5% 66%; /* #ADADA4 */
+    --chart-4: 60 5% 66%; /* #ADADA4 */
+    --chart-5: 0 0% 15%; /* #262626 */
     
     /* NativeWind CSS Variables - Dark Mode */
     --color-primary-0: 50 34 6;
     --color-primary-50: 86 59 10;
     --color-primary-100: 122 84 15;
     --color-primary-200: 158 108 19;
-    --color-primary-300: 194 133 23;
-    --color-primary-400: 230 158 25; /* #E69E19 */
-    --color-primary-500: 244 184 77;
+    --color-primary-300: 27 55 33;
+    --color-primary-400: 39 84 48; /* #275430 */
+    --color-primary-500: 90 138 101;
     --color-primary-600: 249 203 130;
     --color-primary-700: 252 227 180;
     --color-primary-800: 254 243 224;
@@ -375,10 +378,10 @@
     --color-typography-200: 82 82 91;
     --color-typography-300: 92 84 72; /* #5C5448 - textDisabled */
     --color-typography-400: 139 122 90; /* #8B7A5A - textTertiary */
-    --color-typography-500: 204 159 89; /* #CC9F59 - textSecondary */
+    --color-typography-500: 198 186 179; /* #C6BAB3 - textSecondary */
     --color-typography-600: 212 212 216;
     --color-typography-700: 228 228 231;
-    --color-typography-800: 252 243 225; /* #FCF3E1 - textPrimary */
+    --color-typography-800: 198 186 179; /* #C6BAB3 - textPrimary */
     --color-typography-900: 255 252 245;
     --color-typography-950: 255 255 255;
     
@@ -396,7 +399,7 @@
     --color-outline-950: 255 255 255;
     
     --color-background-0: 9 9 11;
-    --color-background-50: 24 33 37; /* #182125 */
+    --color-background-50: 38 38 38; /* #262626 */
     --color-background-100: 35 42 45; /* #232A2D */
     --color-background-200: 43 47 48; /* #2B2F30 */
     --color-background-300: 58 67 70;
@@ -413,7 +416,7 @@
     --color-background-success: 4 47 46;
     --color-background-info: 23 37 84;
     
-    --color-indicator-primary: 230 158 25; /* #E69E19 */
+    --color-indicator-primary: 39 84 48; /* #275430 */
     --color-indicator-info: 96 165 250;
     --color-indicator-error: 230 46 46;
     
@@ -422,9 +425,9 @@
     --color-tertiary-200: 86 59 10;
     --color-tertiary-300: 115 80 16; /* #735010 */
     --color-tertiary-400: 158 108 19;
-    --color-tertiary-500: 194 133 23; /* #C28517 */
-    --color-tertiary-600: 230 158 25;
-    --color-tertiary-700: 244 184 77;
+    --color-tertiary-500: 27 55 33; /* #1B3721 */
+    --color-tertiary-600: 39 84 48;
+    --color-tertiary-700: 90 138 101;
     --color-tertiary-800: 249 203 130;
     --color-tertiary-900: 252 227 180;
     --color-tertiary-950: 255 252 245;

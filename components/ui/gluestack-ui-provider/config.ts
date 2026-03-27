@@ -1,30 +1,30 @@
 'use client';
 import { vars } from 'nativewind';
 
-// Amber/Gold Color Palette
-// Primary: #D4A017 (hsl(43, 80%, 46%))
-// Light Background: #FAFAFA
-// Dark Background: #1A2329
+// Safzan Color Palette
+// Primary: #275430
+// Light Background: #FFFFFF
+// Dark Background: #262626
 
 export const config = {
   light: vars({
-    // Primary - Amber/Gold
-    '--color-primary-0': '255 253 247', // #FFFDF7 - lightest
-    '--color-primary-50': '254 249 231', // light gold tint
-    '--color-primary-100': '253 241 196', 
-    '--color-primary-200': '250 225 143', // #FAE18F - disabled state
-    '--color-primary-300': '245 203 92',
-    '--color-primary-400': '230 175 40', // #E6AF28
-    '--color-primary-500': '230 158 25', // #e69e19 - main primary
-    '--color-primary-600': '180 136 20',
-    '--color-primary-700': '148 112 17',
-    '--color-primary-800': '116 88 13',
-    '--color-primary-900': '84 64 10',
-    '--color-primary-950': '52 40 6',
+    // Primary - Safzan Green
+    '--color-primary-0': '247 250 248',
+    '--color-primary-50': '240 247 241',
+    '--color-primary-100': '221 236 224',
+    '--color-primary-200': '188 216 193',
+    '--color-primary-300': '144 186 151',
+    '--color-primary-400': '90 138 101',
+    '--color-primary-500': '39 84 48',
+    '--color-primary-600': '32 68 39',
+    '--color-primary-700': '27 55 33',
+    '--color-primary-800': '22 43 26',
+    '--color-primary-900': '16 31 19',
+    '--color-primary-950': '10 19 12',
 
     /* Secondary */
     '--color-secondary-0': '253 253 253',
-    '--color-secondary-50': '250 250 250', // #FAFAFA
+    '--color-secondary-50': '250 250 250', // #FFFFFF
     '--color-secondary-100': '246 246 246',
     '--color-secondary-200': '237 238 239',
     '--color-secondary-300': '224 225 227',
@@ -136,7 +136,7 @@ export const config = {
 
     /* Background */
     '--color-background-0': '255 255 255', // #FFFFFF - white
-    '--color-background-50': '250 250 250', // #FAFAFA - main bg
+    '--color-background-50': '250 250 250', // #FFFFFF - main bg
     '--color-background-100': '245 245 245',
     '--color-background-200': '232 233 234', // #E8E9EA - muted
     '--color-background-300': '212 214 217',
@@ -156,24 +156,24 @@ export const config = {
     '--color-background-info': '239 246 255',
 
     /* Focus Ring Indicator */
-    '--color-indicator-primary': '212 160 23', // #D4A017
+    '--color-indicator-primary': '205 199 19', // #CDC713
     '--color-indicator-info': '59 130 246',
     '--color-indicator-error': '229 57 53',
   }),
   dark: vars({
-    // Primary - Amber/Gold (same in dark mode)
-    '--color-primary-0': '52 40 6',
-    '--color-primary-50': '84 64 10',
-    '--color-primary-100': '116 88 13',
-    '--color-primary-200': '148 112 17',
-    '--color-primary-300': '180 136 20',
-    '--color-primary-400': '196 148 22',
-    '--color-primary-500': '230 158 25', // #e69e19 - main primary
-    '--color-primary-600': '230 175 40',
-    '--color-primary-700': '245 203 92',
-    '--color-primary-800': '250 225 143',
-    '--color-primary-900': '253 241 196',
-    '--color-primary-950': '255 253 247',
+    // Primary - Safzan Green
+    '--color-primary-0': '247 250 248',
+    '--color-primary-50': '240 247 241',
+    '--color-primary-100': '221 236 224',
+    '--color-primary-200': '188 216 193',
+    '--color-primary-300': '144 186 151',
+    '--color-primary-400': '90 138 101',
+    '--color-primary-500': '39 84 48',
+    '--color-primary-600': '32 68 39',
+    '--color-primary-700': '27 55 33',
+    '--color-primary-800': '22 43 26',
+    '--color-primary-900': '16 31 19',
+    '--color-primary-950': '10 19 12',
 
     /* Secondary */
     '--color-secondary-0': '26 35 41', // #1A2329
@@ -309,7 +309,7 @@ export const config = {
     '--color-background-info': '26 40 46',
 
     /* Focus Ring Indicator - Dark */
-    '--color-indicator-primary': '212 160 23', // #D4A017
+    '--color-indicator-primary': '205 199 19', // #D4A017
     '--color-indicator-info': '96 165 250',
     '--color-indicator-error': '248 113 113',
   }),

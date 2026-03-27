@@ -22,16 +22,16 @@ export default function SetPasscodeScreen() {
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: '#FAFAFA' }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#FFFFFF' }}>
       <View style={{ flex: 1, padding: 24, justifyContent: 'center' }}>
-        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#2E2E33', marginBottom: 12 }}>Set App Lock Code</Text>
+        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0C0A09', marginBottom: 12 }}>Set App Lock Code</Text>
         <Text style={{ color: '#5E6D72', marginBottom: 32 }}>Create a 6-digit code to unlock the app securely.</Text>
         
         <TextInput
           style={{ 
             backgroundColor: '#FFFFFF', 
             borderWidth: 1, 
-            borderColor: '#D4DADC', 
+            borderColor: '#E7E5E4', 
             borderRadius: 12, 
             padding: 16, 
             fontSize: 24, 
@@ -40,7 +40,7 @@ export default function SetPasscodeScreen() {
             marginBottom: 32
           }}
           placeholder="000000"
-          placeholderTextColor="#D4DADC"
+          placeholderTextColor="#E7E5E4"
           keyboardType="number-pad"
           maxLength={6}
           secureTextEntry
@@ -53,7 +53,7 @@ export default function SetPasscodeScreen() {
           onPress={handleSetPasscode}
           disabled={passcode.length !== 6 || setPasscodeMutation.isPending}
           style={{
-            backgroundColor: passcode.length === 6 ? '#E69E19' : '#D4DADC',
+            backgroundColor: passcode.length === 6 ? '#275430' : '#E7E5E4',
             paddingVertical: 16,
             borderRadius: 12,
             alignItems: 'center',

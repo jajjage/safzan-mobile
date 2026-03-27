@@ -29,7 +29,7 @@ export default function NotificationsScreen() {
   if (isLoading) {
     return (
       <View className="flex-1 bg-background-0 justify-center items-center">
-        <ActivityIndicator size="large" color="#E69E19" />
+        <ActivityIndicator size="large" color="#275430" />
       </View>
     );
   }
@@ -143,7 +143,7 @@ export default function NotificationsScreen() {
       <ScrollView className="flex-1 bg-background-0" showsVerticalScrollIndicator={false}>
       {/* Info Banner */}
       <Box className="flex-row items-center p-4 mx-4 my-4 bg-info-50 rounded-lg border-l-4 border-l-primary-600 gap-3">
-        <FontAwesome name="bell" size={18} color="#E69E19" />
+        <FontAwesome name="bell" size={18} color="#275430" />
         <Text className="flex-1 text-sm text-typography-700">
           Manage how and when we notify you about important updates.
         </Text>
@@ -187,9 +187,9 @@ export default function NotificationsScreen() {
                       disabled={loadingKey === item.key}
                       trackColor={{
                         false: "#d4d4d4",
-                        true: "#E69E1940",
+                        true: "#27543040",
                       }}
-                      thumbColor={item.value ? "#E69E19" : "#f4f4f4"}
+                      thumbColor={item.value ? "#275430" : "#f4f4f4"}
                     />
                   </HStack>
                 ))}
@@ -201,7 +201,7 @@ export default function NotificationsScreen() {
 
       {/* Info Footer */}
       <Box className="flex-row items-start px-4 py-3 mx-4 mb-8 rounded-lg bg-background-100 border border-outline-200 gap-3">
-        <FontAwesome name="info-circle" size={16} color="#E69E19" />
+        <FontAwesome name="info-circle" size={16} color="#275430" />
         <Text size="xs" className="flex-1 text-typography-700">
           You can always disable all notifications in your device settings, but we recommend keeping security alerts enabled.
         </Text>

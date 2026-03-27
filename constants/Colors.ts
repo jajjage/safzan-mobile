@@ -7,15 +7,15 @@
 
 import { darkColors, lightColors } from './palette';
 
-const tintColorLight = lightColors.primary; // #E69E19 - Safzan Gold
-const tintColorDark = lightColors.primary;  // #E69E19 - Same in dark mode
+const tintColorLight = lightColors.primary; // #275430 - Safzan Green
+const tintColorDark = lightColors.primary;  // #275430 - Same in dark mode
 
 export default {
   light: {
-    text: lightColors.foreground,           // #2E2E33
-    background: lightColors.background,      // #FAFAFA
-    tint: tintColorLight,                    // #E69E19
-    tabIconDefault: lightColors.mutedForeground, // #525D60
+    text: lightColors.foreground,           // #0C0A09
+    background: lightColors.background,      // #FFFFFF
+    tint: tintColorLight,                    // #275430
+    tabIconDefault: lightColors.mutedForeground, // #7A726C
     tabIconSelected: tintColorLight,
     
     // Additional navigation colors
@@ -25,10 +25,10 @@ export default {
     primary: lightColors.primary,
   },
   dark: {
-    text: darkColors.foreground,             // #FCF3E1
-    background: darkColors.background,        // #182125
-    tint: tintColorDark,                      // #E69E19
-    tabIconDefault: darkColors.mutedForeground, // #CC9F59
+    text: darkColors.foreground,             // #C6BAB3
+    background: darkColors.background,        // #262626
+    tint: tintColorDark,                      // #275430
+    tabIconDefault: darkColors.mutedForeground, // #C6BAB3
     tabIconSelected: tintColorDark,
     
     // Additional navigation colors

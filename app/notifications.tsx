@@ -235,8 +235,8 @@ export default function NotificationsScreen() {
           <RefreshControl
             refreshing={refreshing}
             onRefresh={onRefresh}
-            colors={["#E69E19"]}
-            tintColor="#E69E19"
+            colors={["#275430"]}
+            tintColor="#275430"
           />
         }
         showsVerticalScrollIndicator={false}
@@ -248,7 +248,7 @@ export default function NotificationsScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FAFAFA",
+    backgroundColor: "#FFFFFF",
   },
   header: {
     flexDirection: "row",
@@ -274,7 +274,7 @@ const styles = StyleSheet.create({
   markAllText: {
     fontSize: 13,
     fontWeight: "600",
-    color: "#E69E19",
+    color: "#275430",
   },
   placeholder: {
     width: 80,
@@ -293,7 +293,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#F5F5F5",
   },
   filterTabActive: {
-    backgroundColor: "#E69E19",
+    backgroundColor: "#275430",
   },
   filterText: {
     fontSize: 14,
@@ -349,7 +349,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   newBadge: {
-    backgroundColor: "#E69E19",
+    backgroundColor: "#275430",
     paddingHorizontal: 8,
     paddingVertical: 2,
     borderRadius: 10,

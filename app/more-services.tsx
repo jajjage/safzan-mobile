@@ -21,7 +21,7 @@ export default function MoreServicesScreen() {
       title: "Bank Transfer",
       description: "Send money to any bank account in Nigeria instantly.",
       Icon: Zap,
-      color: "#E69E19",
+      color: "#275430",
     },
     {
       title: "Gift Cards",

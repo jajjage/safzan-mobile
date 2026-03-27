@@ -23,16 +23,16 @@ export default function SetPinScreen() {
   };
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: '#FAFAFA' }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#FFFFFF' }}>
       <View style={{ flex: 1, padding: 24, justifyContent: 'center' }}>
-        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#2E2E33', marginBottom: 12 }}>Set Transaction PIN</Text>
+        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0C0A09', marginBottom: 12 }}>Set Transaction PIN</Text>
         <Text style={{ color: '#5E6D72', marginBottom: 32 }}>Create a 4-digit PIN to secure your transactions.</Text>
         
         <TextInput
           style={{ 
             backgroundColor: '#FFFFFF', 
             borderWidth: 1, 
-            borderColor: '#D4DADC', 
+            borderColor: '#E7E5E4', 
             borderRadius: 12, 
             padding: 16, 
             fontSize: 24, 
@@ -41,7 +41,7 @@ export default function SetPinScreen() {
             marginBottom: 32
           }}
           placeholder="0000"
-          placeholderTextColor="#D4DADC"
+          placeholderTextColor="#E7E5E4"
           keyboardType="number-pad"
           maxLength={4}
           secureTextEntry
@@ -54,7 +54,7 @@ export default function SetPinScreen() {
           onPress={handleSetPin}
           disabled={pin.length !== 4 || setPinMutation.isPending}
           style={{
-            backgroundColor: pin.length === 4 ? '#E69E19' : '#D4DADC',
+            backgroundColor: pin.length === 4 ? '#275430' : '#E7E5E4',
             paddingVertical: 16,
             borderRadius: 12,
             alignItems: 'center',

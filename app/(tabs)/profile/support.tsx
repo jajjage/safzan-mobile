@@ -23,7 +23,7 @@ export default function SupportScreen() {
       icon: "phone",
       title: "Call Us",
       description: "+234 (0) 7033 377 6056",
-      action: () => Linking.openURL("tel:+2347033776056"),
+      action: () => Linking.openURL("tel:+2347039284523"),
     },
     {
       icon: "comments",
@@ -92,7 +92,7 @@ export default function SupportScreen() {
                   <FontAwesome
                     name={item.icon as any}
                     size={24}
-                    color="#E69E19"
+                    color="#275430"
                   />
                 </Box>
                 <Heading size="sm" className="font-semibold text-center">{item.title}</Heading>
@@ -111,7 +111,7 @@ export default function SupportScreen() {
             {faqItems.map((item, index) => (
               <Box key={index} className={index !== faqItems.length - 1 ? "pb-3 border-b border-outline-200" : ""}>
                 <HStack space="md" className="items-start mb-2">
-                  <FontAwesome name="question-circle" size={16} color="#E69E19" />
+                  <FontAwesome name="question-circle" size={16} color="#275430" />
                   <Heading size="xs" className="flex-1 font-semibold text-typography-700">{item.question}</Heading>
                 </HStack>
                 <Text size="xs" className="text-typography-600 ml-6">{item.answer}</Text>
@@ -123,7 +123,7 @@ export default function SupportScreen() {
 
       {/* Additional Info */}
       <Box className="flex-row items-start px-4 py-3 mx-4 mb-8 rounded-lg bg-info-50 border border-info-200 gap-3">
-        <FontAwesome name="info-circle" size={16} color="#E69E19" />
+        <FontAwesome name="info-circle" size={16} color="#275430" />
         <Text size="xs" className="flex-1 text-typography-700">
           Our support team is available Monday to Friday, 9AM to 6PM WAT.
         </Text>

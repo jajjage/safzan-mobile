@@ -75,12 +75,12 @@ export function Loader({
               strokeWidth={sizeConfig.stroke}
               fill="none"
             />
-            {/* Animated arc (primary gold color) */}
+            {/* Animated arc (primary brand color) */}
             <Circle
               cx={sizeConfig.container / 2}
               cy={sizeConfig.container / 2}
               r={sizeConfig.radius}
-              stroke="#E69E19"
+              stroke="#275430"
               strokeWidth={sizeConfig.stroke}
               fill="none"
               strokeDasharray={`${circumference * 0.7} ${circumference * 0.3}`}

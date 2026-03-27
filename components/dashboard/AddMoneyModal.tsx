@@ -103,7 +103,7 @@ export function AddMoneyModal({ isVisible, onClose }: AddMoneyModalProps) {
                       {copied ? (
                         <Check size={20} color="#2E7D32" />
                       ) : (
-                        <Copy size={20} color="#E69E19" />
+                        <Copy size={20} color="#275430" />
                       )}
                     </TouchableOpacity>
                   </View>
@@ -135,7 +135,7 @@ export function AddMoneyModal({ isVisible, onClose }: AddMoneyModalProps) {
                      </View>
                 ) : (
                     <>
-                        <ActivityIndicator size="large" color="#E69E19" />
+                        <ActivityIndicator size="large" color="#275430" />
                         <Text style={styles.loadingText}>
                         Creating your unique virtual account...
                         </Text>
@@ -252,7 +252,7 @@ const styles = StyleSheet.create({
   actionButton: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#E69E19',
+    backgroundColor: '#275430',
     paddingVertical: 12,
     paddingHorizontal: 24,
     borderRadius: 50,

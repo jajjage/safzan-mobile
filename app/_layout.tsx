@@ -33,11 +33,11 @@ const SafzanLightTheme = {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
-    primary: lightColors.primary,           // #E69E19 - Safzan Gold
-    background: lightColors.background,     // #FAFAFA
-    card: lightColors.card,                 // #FAFAFA
-    text: lightColors.foreground,           // #2E2E33
-    border: lightColors.border,             // #D4DADC
+    primary: lightColors.primary,           // #275430 - Safzan Green
+    background: lightColors.background,     // #FFFFFF
+    card: lightColors.card,                 // #FFFFFF
+    text: lightColors.foreground,           // #0C0A09
+    border: lightColors.border,             // #E7E5E4
     notification: lightColors.destructive,  // #E63636
   },
 };
@@ -50,10 +50,10 @@ const SafzanDarkTheme = {
   ...DarkTheme,
   colors: {
     ...DarkTheme.colors,
-    primary: darkColors.primary,            // #E69E19 - Safzan Gold
-    background: darkColors.background,      // #182125
-    card: darkColors.card,                  // #182125
-    text: darkColors.foreground,            // #FCF3E1
+    primary: darkColors.primary,            // #275430 - Safzan Green
+    background: darkColors.background,      // #262626
+    card: darkColors.card,                  // #262626
+    text: darkColors.foreground,            // #C6BAB3
     border: darkColors.border,              // #3A4346
     notification: darkColors.destructive,   // #E62E2E
   },

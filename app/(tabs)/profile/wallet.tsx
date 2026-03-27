@@ -37,7 +37,7 @@ export default function WalletScreen() {
       <ScrollView className="flex-1 bg-background-0" showsVerticalScrollIndicator={false}>
       {/* Info Banner */}
       <Box className="flex-row items-center p-4 mx-4 my-4 bg-info-50 rounded-lg border-l-4 border-l-primary-600 gap-3">
-        <FontAwesome name="credit-card" size={18} color="#E69E19" />
+        <FontAwesome name="credit-card" size={18} color="#275430" />
         <Text className="flex-1 text-sm text-typography-700">
           Manage your payment methods and bank accounts.
         </Text>

@@ -125,7 +125,7 @@ export default function ProfileHubScreen() {
                     <HStack space="md" className="flex-1 items-center">
                       {/* Icon */}
                       <Box className="w-12 h-12 rounded-lg bg-background-50 justify-center items-center">
-                        <FontAwesome name={item.icon as any} size={20} color="#E69E19" />
+                        <FontAwesome name={item.icon as any} size={20} color="#275430" />
                       </Box>
 
                       {/* Label and Description */}

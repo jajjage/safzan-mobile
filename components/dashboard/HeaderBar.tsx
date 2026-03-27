@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     borderRadius: 8,
-    backgroundColor: "#FAFAFA",
+    backgroundColor: "#FFFFFF",
     justifyContent: "center",
     alignItems: "center",
     borderWidth: 1,
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
   logoText: {
     fontSize: 14,
     fontWeight: "700",
-    color: "#2E2E33", // Will be dynamically set in component
+    color: "#0C0A09", // Will be dynamically set in component
   },
   spacer: {
     flex: 1,

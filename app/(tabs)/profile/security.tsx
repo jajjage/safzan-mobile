@@ -94,7 +94,7 @@ export default function SecurityHubScreen() {
       >
       {/* Security Info Banner */}
       <Box className="flex-row items-center p-4 mx-4 my-4 bg-info-50 rounded-lg border-l-4 border-l-primary-600 gap-3">
-        <FontAwesome name="shield" size={20} color="#E69E19" />
+        <FontAwesome name="shield" size={20} color="#275430" />
         <Text className="flex-1 text-sm text-typography-700">
           Secure your account with strong passwords and biometric authentication.
         </Text>
@@ -116,7 +116,7 @@ export default function SecurityHubScreen() {
                       <FontAwesome
                         name={item.icon as any}
                         size={20}
-                        color="#E69E19"
+                        color="#275430"
                       />
                     </Box>
                     <VStack className="flex-1">
