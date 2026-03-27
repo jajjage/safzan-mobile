@@ -12,38 +12,38 @@
  */
 export const lightColors = {
   // Core colors
-  background: '#FAFAFA',
-  foreground: '#2E2E33',
+  background: '#FFFFFF',
+  foreground: '#0C0A09',
 
   // Card
-  card: '#FAFAFA',
-  cardForeground: '#2E2E33',
+  card: '#FFFFFF',
+  cardForeground: '#0C0A09',
 
   // Popover
-  popover: '#FAFAFA',
-  popoverForeground: '#2E2E33',
+  popover: '#FFFFFF',
+  popoverForeground: '#0C0A09',
 
-  // Primary (Safzan Gold)
-  primary: '#E69E19',
-  primaryForeground: '#FFFCF5',
-  primaryLight: '#F4B84D',      // Lighter variant for pressed states
-  primaryDark: '#C28517',       // Darker variant for active states
+  // Primary (Safzan Green)
+  primary: '#275430',
+  primaryForeground: '#FAFAF9',
+  primaryLight: '#5A8A65',
+  primaryDark: '#1B3721',
 
   // Secondary
-  secondary: '#D4DADC',
-  secondaryForeground: '#1F2A2D',
+  secondary: '#F5F5F4',
+  secondaryForeground: '#7A726C',
 
   // Muted
-  muted: '#EAEBEC',
-  mutedForeground: '#525D60',
+  muted: '#F5F5F4',
+  mutedForeground: '#7A726C',
 
   // Accent
-  accent: '#EAEBEC',
-  accentForeground: '#2E2E33',
+  accent: '#F5F5F4',
+  accentForeground: '#7A726C',
 
   // Destructive (Error/Danger)
-  destructive: '#E63636',
-  destructiveForeground: '#FAFAFA',
+  destructive: '#F90606',
+  destructiveForeground: '#FAFAF9',
 
   // Success (Additional for mobile)
   success: '#2A9D8F',
@@ -58,35 +58,35 @@ export const lightColors = {
   infoForeground: '#FFFFFF',
 
   // Border & Input
-  border: '#D4DADC',
-  input: '#D4DADC',
+  border: '#E7E5E4',
+  input: '#E7E5E4',
   inputBackground: '#FFFFFF',
 
   // Focus Ring
-  ring: '#E69E19',
+  ring: '#CDC713',
 
   // Sidebar
-  sidebarBackground: '#F2F2F2',
-  sidebarForeground: '#585862',
-  sidebarPrimary: '#D99316',
-  sidebarPrimaryForeground: '#000000',
-  sidebarAccent: '#E1E3E4',
-  sidebarAccentForeground: '#2E2E33',
-  sidebarBorder: '#CBCFD1',
-  sidebarRing: '#D99316',
+  sidebarBackground: '#F7F7F7',
+  sidebarForeground: '#6C5A51',
+  sidebarPrimary: '#75710B',
+  sidebarPrimaryForeground: '#FAFAF9',
+  sidebarAccent: '#C2C2BC',
+  sidebarAccentForeground: '#000000',
+  sidebarBorder: '#E0DDDC',
+  sidebarRing: '#BFBA12',
 
   // Charts
-  chart1: '#E69E19',
-  chart2: '#D95C33',
-  chart3: '#2A9D8F',
-  chart4: '#E9C46A',
-  chart5: '#F4A261',
+  chart1: '#CDC713',
+  chart2: '#F5F5F4',
+  chart3: '#F5F5F4',
+  chart4: '#F5F5F4',
+  chart5: '#FFFFFF',
 
   // Text variants
-  textPrimary: '#2E2E33',
-  textSecondary: '#525D60',
-  textTertiary: '#7D8487',
-  textDisabled: '#A8ADAF',
+  textPrimary: '#0C0A09',
+  textSecondary: '#7A726C',
+  textTertiary: '#A8A29E',
+  textDisabled: '#D6D3D1',
 
   // Overlay
   overlay: 'rgba(0, 0, 0, 0.5)',
@@ -98,38 +98,38 @@ export const lightColors = {
  */
 export const darkColors = {
   // Core colors
-  background: '#182125',
-  foreground: '#FCF3E1',
+  background: '#262626',
+  foreground: '#C6BAB3',
 
   // Card
-  card: '#182125',
-  cardForeground: '#FCF3E1',
+  card: '#404040',
+  cardForeground: '#C6BAB3',
 
   // Popover
-  popover: '#182125',
-  popoverForeground: '#FCF3E1',
+  popover: '#262626',
+  popoverForeground: '#C6BAB3',
 
-  // Primary (Safzan Gold)
-  primary: '#E69E19',
-  primaryForeground: '#FFFCF5',
-  primaryLight: '#F4B84D',
-  primaryDark: '#C28517',
+  // Primary (Safzan Green)
+  primary: '#275430',
+  primaryForeground: '#F8FAFC',
+  primaryLight: '#5A8A65',
+  primaryDark: '#1B3721',
 
   // Secondary
-  secondary: '#3A4346',
-  secondaryForeground: '#CDD8DC',
+  secondary: '#53534B',
+  secondaryForeground: '#F3F2F1',
 
   // Muted
-  muted: '#2B2F30',
-  mutedForeground: '#CC9F59',
+  muted: '#46463F',
+  mutedForeground: '#F3F2F1',
 
   // Accent
-  accent: '#2B2F30',
-  accentForeground: '#FCF3E1',
+  accent: '#53534B',
+  accentForeground: '#F3F2F1',
 
   // Destructive (Error/Danger)
-  destructive: '#E62E2E',
-  destructiveForeground: '#FFFEF5',
+  destructive: '#630303',
+  destructiveForeground: '#F8FAFC',
 
   // Success
   success: '#2A9D8F',
@@ -144,35 +144,35 @@ export const darkColors = {
   infoForeground: '#FFFFFF',
 
   // Border & Input
-  border: '#3A4346',
-  input: '#3A4346',
-  inputBackground: '#232A2D',
+  border: '#6C6460',
+  input: '#6C6460',
+  inputBackground: '#404040',
 
   // Focus Ring
-  ring: '#E69E19',
+  ring: '#CDC713',
 
   // Sidebar
-  sidebarBackground: '#0A0D0E',
-  sidebarForeground: '#B87A13',
-  sidebarPrimary: '#735010',
-  sidebarPrimaryForeground: '#FFFCF5',
-  sidebarAccent: '#181A1A',
-  sidebarAccentForeground: '#FCF3E1',
-  sidebarBorder: '#262C2E',
-  sidebarRing: '#C28517',
+  sidebarBackground: '#121212',
+  sidebarForeground: '#9F8A7F',
+  sidebarPrimary: '#75710B',
+  sidebarPrimaryForeground: '#F8FAFC',
+  sidebarAccent: '#3E3E38',
+  sidebarAccentForeground: '#F3F2F1',
+  sidebarBorder: '#56504D',
+  sidebarRing: '#A8A310',
 
   // Charts
-  chart1: '#AD7D14',
-  chart2: '#F4A261',
-  chart3: '#E76F51',
-  chart4: '#E9C46A',
-  chart5: '#2A9D8F',
+  chart1: '#413F06',
+  chart2: '#ADADA4',
+  chart3: '#ADADA4',
+  chart4: '#ADADA4',
+  chart5: '#262626',
 
   // Text variants
-  textPrimary: '#FCF3E1',
-  textSecondary: '#CC9F59',
-  textTertiary: '#8B7A5A',
-  textDisabled: '#5C5448',
+  textPrimary: '#C6BAB3',
+  textSecondary: '#F3F2F1',
+  textTertiary: '#A8A29E',
+  textDisabled: '#78716C',
 
   // Overlay
   overlay: 'rgba(0, 0, 0, 0.7)',
@@ -209,10 +209,10 @@ export const getColors = (theme: ThemeType): ColorPalette => {
 export const designTokens = {
   // Border radius (matching web app)
   radius: {
-    sm: 4,   // calc(0.5rem - 4px) = 4px
-    md: 6,   // calc(0.5rem - 2px) = 6px
-    lg: 8,   // 0.5rem = 8px
-    xl: 12,  // calc(0.5rem + 4px) = 12px
+    sm: 11,
+    md: 13,
+    lg: 15,
+    xl: 19,
     full: 9999,
   },
 

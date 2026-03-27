@@ -30,7 +30,7 @@ const cborBytes = encodeCBOR(value);
 const base64url = uint8ArrayToBase64Url(cborBytes);
 
 // Compute real RP ID hash
-const rpIdHash = sha256("nexusdatasub.com"); // 32-byte hash
+const rpIdHash = sha256("safzandatasub.com"); // 32-byte hash
 ```
 
 **Features:**
@@ -125,7 +125,7 @@ attestationObject = CBOR {
 }
 
 authenticatorData = 
-  rpIdHash (32 bytes)      <- SHA256("nexusdatasub.com")
+  rpIdHash (32 bytes)      <- SHA256("safzandatasub.com")
   + flags (1 byte)         <- 0x45 (UP + UV)
   + signCounter (4 bytes)  <- random counter
   + [optional] credential data (aaguid + credential id + public key)
@@ -140,7 +140,7 @@ rpIdHash = new Uint8Array(32).fill(0)  // All zeros
 
 **After (Production):**
 ```typescript
-rpIdHash = sha256("nexusdatasub.com")  // Real SHA256 hash
+rpIdHash = sha256("safzandatasub.com")  // Real SHA256 hash
 // Result: [0x3d, 0x3d, 0x3d, ...] (32 bytes)
 ```
 
@@ -259,7 +259,7 @@ if (isProduction) {
   
   // Validate authenticator data
   const rpIdHash = cborDecoded.authData.slice(0, 32);
-  const expectedRpIdHash = sha256("nexusdatasub.com");
+  const expectedRpIdHash = sha256("safzandatasub.com");
   
   if (!rpIdHash.equals(expectedRpIdHash)) {
     throw new Error("RP ID hash mismatch");
@@ -351,7 +351,7 @@ Binary CBOR data:
 - fmt: "none"
 - attStmt: {}
 - authData: <binary>
-  - rpIdHash: 3d 3d 3d ... (SHA256 of nexusdatasub.com)
+  - rpIdHash: 3d 3d 3d ... (SHA256 of safzandatasub.com)
   - flags: 0x45
   - signCounter: <4 bytes>
   - credential data: <aaguid + id + public key>
@@ -393,7 +393,7 @@ useEffect(() => {
 
 ```typescript
 // In development console
-const rpId = "nexusdatasub.com";
+const rpId = "safzandatasub.com";
 const hash = sha256(rpId);
 console.log('RP ID Hash:', Buffer.from(hash).toString('hex'));
 // Should print: 3d3d3d3d...
@@ -437,5 +437,5 @@ If attestations are still failing in production:
 2. Verify `EXPO_PUBLIC_WEBAUTHN_ENV=production` is set
 3. Inspect attestation object structure in network requests
 4. Ensure backend can decode CBOR format
-5. Verify RP ID matches "nexusdatasub.com"
+5. Verify RP ID matches "safzandatasub.com"
 

@@ -75,7 +75,7 @@ logWebAuthnEnvironment()       // Debug logging
 
 **Authenticator Data (`buildAuthenticatorData`):**
 - DEV: RP ID hash = zeros
-- PROD: RP ID hash = SHA256("nexusdatasub.com")
+- PROD: RP ID hash = SHA256("safzandatasub.com")
 
 ---
 
@@ -130,7 +130,7 @@ attestationObject = base64url(CBOR.encode({
   fmt: "none",
   attStmt: {},
   authData: <binary>
-    [61, 61, 61, ..., XX]         // Real SHA256("nexusdatasub.com")
+    [61, 61, 61, ..., XX]         // Real SHA256("safzandatasub.com")
     [0x45]                        // Flags: UP + UV
     [counter bytes]               // Sign counter
     [aaguid + credId + pubKey]    // Credential data
@@ -142,7 +142,7 @@ attestationObject = base64url(CBOR.encode({
 | Mode | Hash Value | Type | Size |
 |------|-----------|------|------|
 | Dev | All zeros | Mock | 32 bytes |
-| Prod | SHA256("nexusdatasub.com") | Real | 32 bytes |
+| Prod | SHA256("safzandatasub.com") | Real | 32 bytes |
 
 **Example:**
 ```typescript
@@ -150,7 +150,7 @@ attestationObject = base64url(CBOR.encode({
 rpIdHash = [0x00, 0x00, 0x00, ..., 0x00]
 
 // Production
-rpIdHash = sha256("nexusdatasub.com")
+rpIdHash = sha256("safzandatasub.com")
          = [0x3d, 0x8c, 0xa8, ..., 0x9f]
 ```
 
@@ -197,7 +197,7 @@ if (isMockFormat(attestationObject)) {
   
   // Validate RP ID hash
   const rpIdHash = obj.authData.slice(0, 32);
-  const expected = sha256("nexusdatasub.com");
+  const expected = sha256("safzandatasub.com");
   
   if (!rpIdHash.equals(expected)) {
     throw new Error("RP ID hash mismatch");
@@ -220,7 +220,7 @@ npm start
 ```bash
 EXPO_PUBLIC_WEBAUTHN_ENV=production npm start
 # Enroll biometric → Attestation is CBOR format
-# RP ID hash = SHA256("nexusdatasub.com")
+# RP ID hash = SHA256("safzandatasub.com")
 # Backend verifies with prod verification path
 ```
 
@@ -366,7 +366,7 @@ logWebAuthnEnvironment(); // Prints configuration
 ### Verify RP ID Hash
 ```typescript
 import { sha256 } from '@/lib/cbor-encoder';
-const hash = sha256("nexusdatasub.com");
+const hash = sha256("safzandatasub.com");
 // Should match authData[0:32] in production attestations
 ```
 

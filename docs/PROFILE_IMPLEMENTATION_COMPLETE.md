@@ -1,7 +1,7 @@
 # Profile Feature Implementation Guide
 
 ## Overview
-Complete implementation of the Profile feature for Nexus Mobile (iOS/Android/Web), including personal info management, security hub, biometric device management, notification preferences, payment methods, and support.
+Complete implementation of the Profile feature for Safzan Mobile (iOS/Android/Web), including personal info management, security hub, biometric device management, notification preferences, payment methods, and support.
 
 **Status**: ✅ COMPLETE - All screens, routes, hooks, and forms implemented
 
@@ -286,7 +286,7 @@ Profile Hub (/(tabs)/profile/)
 **Sections**:
 
 1. **Contact Methods** (4 cards):
-   - Email Support (support@nexus.ng)
+   - Email Support (support@safzan.ng)
    - Phone (Call Us)
    - Live Chat
    - Help Center
@@ -395,7 +395,7 @@ z.object({
 ## Styling & Theme
 
 ### Color Palette
-- **Primary**: `lightColors.primary` (Nexus gold #E69E19)
+- **Primary**: `lightColors.primary` (Safzan gold #E69E19)
 - **Background**: `lightColors.background` (white/light gray)
 - **Text**: `lightColors.text` (dark gray/black)
 - **Gray**: `lightColors.gray2`, `lightColors.gray3`

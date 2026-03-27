@@ -50,7 +50,7 @@ EXPO_PUBLIC_WEBAUTHN_ENV=production npm start
 | **Format** | JSON | CBOR Binary |
 | **Attestation** | Mock (all zeros) | Real (SHA256) |
 | **Signature** | Mock JSON | ECDSA P-256 |
-| **RP ID Hash** | Zeros | SHA256("nexusdatasub.com") |
+| **RP ID Hash** | Zeros | SHA256("safzandatasub.com") |
 | **Backend Path** | Mock verification | Full WebAuthn validation |
 
 ## Development (Testing)
@@ -121,7 +121,7 @@ if (build === 'development') {
   // Decode CBOR format
   const attestObj = CBOR.decode(base64urlDecode(attestationObject));
   const rpIdHash = attestObj.authData.slice(0, 32);
-  const expected = sha256("nexusdatasub.com");
+  const expected = sha256("safzandatasub.com");
   return rpIdHash.equals(expected);
 }
 ```
@@ -166,7 +166,7 @@ In production builds, look at `/biometric/register/verify` POST request:
 ```typescript
 import { sha256 } from '@/lib/cbor-encoder';
 
-const rpIdHash = sha256("nexusdatasub.com");
+const rpIdHash = sha256("safzandatasub.com");
 // Should match authData[0:32] in production attestation
 ```
 
@@ -199,20 +199,20 @@ EXPO_PUBLIC_WEBAUTHN_ENV=production npm start
 # Enroll biometric → Check attestationObject is CBOR
 
 # ✅ Backend can verify production attestations
-curl -X POST https://api.nexusdatasub.com/biometric/register/verify \
+curl -X POST https://api.safzandatasub.com/biometric/register/verify \
   -H "Content-Type: application/json" \
   -d @production-attestation.json
 
 # ✅ RP ID hash matches
-# Extract from production attestation and compare with SHA256("nexusdatasub.com")
+# Extract from production attestation and compare with SHA256("safzandatasub.com")
 ```
 
 ## Troubleshooting
 
 ### "RP ID hash mismatch" error
 - ✅ Verify `EXPO_PUBLIC_WEBAUTHN_ENV=production` is set
-- ✅ Check backend is computing `sha256("nexusdatasub.com")`
-- ✅ Ensure RP ID in options matches backend (should be "nexusdatasub.com")
+- ✅ Check backend is computing `sha256("safzandatasub.com")`
+- ✅ Ensure RP ID in options matches backend (should be "safzandatasub.com")
 
 ### "Invalid CBOR format" error
 - ✅ Backend should decode `attestationObject` as CBOR, not JSON

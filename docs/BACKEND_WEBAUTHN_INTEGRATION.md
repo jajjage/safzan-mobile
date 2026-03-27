@@ -172,7 +172,7 @@ function validateRpIdHash(rpIdHash: Buffer, expectedRpId: string): boolean {
 const attestObj = decodeAttestationObject(attestationBase64url);
 const authData = extractAuthData(attestObj);
 
-const isValid = validateRpIdHash(authData.rpIdHash, "nexusdatasub.com");
+const isValid = validateRpIdHash(authData.rpIdHash, "safzandatasub.com");
 
 if (!isValid) {
   throw new Error('RP ID hash mismatch!');
@@ -189,7 +189,7 @@ console.log(rpIdHash.toString('hex'));
 
 // Production (real SHA256)
 const crypto = require('crypto');
-const expected = crypto.createHash('sha256').update('nexusdatasub.com').digest();
+const expected = crypto.createHash('sha256').update('safzandatasub.com').digest();
 console.log(expected.toString('hex'));
 // Output: 3d8ca8fe48e4a8d0ce85b2f14c5dba20a5d46b3d8f0c4e9a2b1c3d4e5f6a7b8c
 ```
@@ -240,8 +240,8 @@ async function verifyBiometricRegistration(
     : extractAuthDataCBOR(attestObj);
 
   // Step 3: Verify RP ID hash (CRITICAL)
-  if (!validateRpIdHash(authData.rpIdHash, "nexusdatasub.com")) {
-    throw new Error('RP ID hash does not match nexusdatasub.com');
+  if (!validateRpIdHash(authData.rpIdHash, "safzandatasub.com")) {
+    throw new Error('RP ID hash does not match safzandatasub.com');
   }
 
   // Step 4: Verify flags
@@ -264,7 +264,7 @@ async function verifyBiometricRegistration(
     throw new Error('Challenge mismatch');
   }
   
-  if (clientDataJSON.origin !== 'https://nexusdatasub.com') {
+  if (clientDataJSON.origin !== 'https://safzandatasub.com') {
     throw new Error('Origin mismatch');
   }
 
@@ -323,7 +323,7 @@ async function verifyBiometricRegistrationProd(request) {
   const authData = extractAuthDataCBOR(attestObj);
   
   // Verify RP ID hash (CRITICAL)
-  if (!validateRpIdHash(authData.rpIdHash, "nexusdatasub.com")) {
+  if (!validateRpIdHash(authData.rpIdHash, "safzandatasub.com")) {
     throw new Error('Invalid RP ID hash');
   }
   
@@ -352,7 +352,7 @@ async function verifyBiometricRegistration(request) {
   // Both are valid - just different environments
   
   const crypto = require('crypto');
-  const expectedHash = crypto.createHash('sha256').update('nexusdatasub.com').digest();
+  const expectedHash = crypto.createHash('sha256').update('safzandatasub.com').digest();
   
   // Check if hash is either all zeros (dev) or real hash (prod)
   const isDevFormat = authData.rpIdHash.equals(Buffer.alloc(32));
@@ -412,7 +412,7 @@ curl -X POST http://localhost:3000/api/biometric/register/verify \
 const crypto = require('crypto');
 
 // Expected production hash
-const rpIdHash = crypto.createHash('sha256').update('nexusdatasub.com').digest('hex');
+const rpIdHash = crypto.createHash('sha256').update('safzandatasub.com').digest('hex');
 console.log(rpIdHash);
 // Output: 3d8ca8fe48e4a8d0ce85b2f14c5dba20a5d46b3d8f0c4e9a2b1c3d4e5f6a7b8c
 
@@ -455,7 +455,7 @@ async function logAttestationDetails(attestationBase64url: string) {
 
 ```typescript
 const crypto = require('crypto');
-const expected = crypto.createHash('sha256').update('nexusdatasub.com').digest();
+const expected = crypto.createHash('sha256').update('safzandatasub.com').digest();
 
 console.log('Expected:', expected.toString('hex'));
 console.log('Received:', authData.rpIdHash.toString('hex'));

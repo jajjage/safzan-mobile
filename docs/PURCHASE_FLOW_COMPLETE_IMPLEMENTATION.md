@@ -405,7 +405,7 @@ async function proceedWithBiometricVerification() {
         clientDataJSON: Base64.encode(JSON.stringify({
           type: "webauthn.get",
           challenge: challenge,
-          origin: "nexus-mobile.com",
+          origin: "safzan-mobile.com",
         })),
         authenticatorData: Base64.encode("authenticatorData"),
         signature: Base64.encode("signatureOfChallenge"),
@@ -921,7 +921,7 @@ async function renderAndShareReceipt(transaction: Transaction) {
 function TransactionReceipt({ transaction }) {
   return (
     <View style={styles.receipt}>
-      <Text style={styles.logo}>Nexus Data</Text>
+      <Text style={styles.logo}>Safzan Data</Text>
       
       <Divider />
       

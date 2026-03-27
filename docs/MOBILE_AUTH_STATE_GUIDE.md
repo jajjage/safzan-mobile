@@ -19,7 +19,7 @@
 
 ## Overview
 
-The Nexus app uses a **dual-layer authentication system**:
+The Safzan app uses a **dual-layer authentication system**:
 
 | Layer | Purpose | Storage |
 |-------|---------|---------|
@@ -477,7 +477,7 @@ export function SoftLockScreen() {
 
   const handleBiometricUnlock = async () => {
     const result = await LocalAuthentication.authenticateAsync({
-      promptMessage: 'Unlock Nexus',
+      promptMessage: 'Unlock Safzan',
       fallbackLabel: 'Use Passcode',
     });
 

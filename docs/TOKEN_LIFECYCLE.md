@@ -13,8 +13,8 @@ This provides security (if access token is compromised, damage is limited to 15 
 
 ### 1. **Storage Location: SecureStore** (`lib/secure-store.ts`)
 ```typescript
-const ACCESS_TOKEN_KEY = "nexus_access_token";
-const REFRESH_TOKEN_KEY = "nexus_refresh_token";
+const ACCESS_TOKEN_KEY = "safzan_access_token";
+const REFRESH_TOKEN_KEY = "safzan_refresh_token";
 
 export const tokenStorage = {
   async setAccessToken(token: string): Promise<void> {

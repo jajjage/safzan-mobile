@@ -141,7 +141,7 @@ Success payload:
     "referralCode": "ABC123",
     "shortCode": "ABC123",
     "referralLink": "https://your-frontend-domain/register?ref=ABC123",
-    "sharingMessage": "Join me on Nexus! Use my referral code: ABC123",
+    "sharingMessage": "Join me on Safzan! Use my referral code: ABC123",
     "qrCodeUrl": "https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=..."
   },
   "statusCode": 200

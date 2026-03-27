@@ -131,7 +131,7 @@ mutation.mutate(data);
 
 ```typescript
 const profileColors = {
-  primary: "#E69E19",        // Nexus gold
+  primary: "#E69E19",        // Safzan gold
   background: "#F9FAFB",     // Light gray
   text: "#1F2937",           // Dark gray
   textSecondary: "#6B7280",  // Medium gray
