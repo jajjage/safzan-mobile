@@ -17,7 +17,7 @@
 
 ### Configuration Level (Just Added)
 - ✅ **assetBundlePatterns**: Now restricts bundling to images/ and fonts/ only
-- ✅ **Android newArchEnabled**: Set to false (faster compilation, smaller size)
+- ⚠️ **Android newArchEnabled**: Keep enabled for the current stack because `react-native-reanimated@~4.1.1` requires the new architecture
 - ✅ **eas.json**: Production profile uses AAB (20-30% smaller than multi-arch APK)
 - ✅ **eas.json**: production-apk optimized for maximum compatibility
 
