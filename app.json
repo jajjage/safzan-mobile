@@ -7,7 +7,7 @@
     "icon": "./assets/images/ios-dark.png",
     "scheme": "safzandatasub",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "bundleIdentifier": "com.safzan.safzandatasub",
       "googleServicesFile": "./GoogleService-Info.plist",
@@ -45,7 +45,7 @@
       "permissions": [
         "NOTIFICATIONS"
       ],
-      "newArchEnabled": true
+      "newArchEnabled": false
     },
     "web": {
       "bundler": "metro",

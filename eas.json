@@ -39,8 +39,7 @@
         "env": {
           "ANDROID_NATIVE_DEBUG_SYMBOLS": "false",
           "EXPO_PUBLIC_WEBAUTHN_ENV": "production",
-          "NODE_ENV": "production",
-          "BUILD_ARM64_ONLY": "true"
+          "NODE_ENV": "production"
         }
       },
       "ios": {}
