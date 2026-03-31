@@ -54,7 +54,7 @@ export default function RewardsScreen() {
 
         {/* Main Cashback Card */}
         <LinearGradient
-          colors={['#e69e19', '#d4891a']}
+          colors={[colors.primaryLight, colors.primary]}
           style={styles.mainCard}
         >
           <View style={styles.iconCircle}>

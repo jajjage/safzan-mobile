@@ -12,26 +12,26 @@ import BottomSheet from "@gorhom/bottom-sheet";
 import * as Haptics from "expo-haptics";
 import { Stack, useRouter } from "expo-router";
 import { ArrowLeft } from "lucide-react-native";
-import React, { useCallback, useMemo, useRef, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
-  KeyboardAvoidingView,
-  Platform,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View
+    KeyboardAvoidingView,
+    Platform,
+    ScrollView,
+    StyleSheet,
+    Text,
+    TextInput,
+    TouchableOpacity,
+    View
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 import { LoadingOverlay } from "@/components/LoadingOverlay";
 import {
-  CheckoutData,
-  CheckoutModal,
-  CheckoutMode,
-  NetworkDetectorInput,
-  NetworkSelector
+    CheckoutData,
+    CheckoutModal,
+    CheckoutMode,
+    NetworkDetectorInput,
+    NetworkSelector
 } from "@/components/purchase";
 import { PinPadModal } from "@/components/security/PinPadModal";
 import { designTokens } from "@/constants/palette";
@@ -43,11 +43,11 @@ import { useSupplierMarkupMap } from "@/hooks/useSupplierMarkup";
 import { useTopup } from "@/hooks/useTopup";
 import { useWalletBalance } from "@/hooks/useWalletBalance";
 import {
-  NetworkProvider,
-  NETWORK_PROVIDERS,
-  NetworkInfo,
-  isValidNigerianPhone,
-  normalizePhoneNumber,
+    NETWORK_PROVIDERS,
+    NetworkInfo,
+    NetworkProvider,
+    isValidNigerianPhone,
+    normalizePhoneNumber,
 } from "@/lib/detectNetwork";
 import { calculateFinalPrice } from "@/lib/price-calculator";
 import { Product } from "@/types/product.types";
