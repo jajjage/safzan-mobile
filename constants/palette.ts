@@ -12,81 +12,81 @@
  */
 export const lightColors = {
   // Core colors
-  background: '#FFFFFF',
-  foreground: '#0C0A09',
+  background: '#F8FAFC',
+  foreground: '#111827',
 
   // Card
   card: '#FFFFFF',
-  cardForeground: '#0C0A09',
+  cardForeground: '#111827',
 
   // Popover
   popover: '#FFFFFF',
-  popoverForeground: '#0C0A09',
+  popoverForeground: '#111827',
 
-  // Primary (Safzan Green)
-  primary: '#275430',
-  primaryForeground: '#FAFAF9',
-  primaryLight: '#5A8A65',
-  primaryDark: '#1B3721',
+  // Primary (Safzan Blue)
+  primary: '#2563EB',
+  primaryForeground: '#FFFFFF',
+  primaryLight: '#60A5FA',
+  primaryDark: '#1D4ED8',
 
-  // Secondary
-  secondary: '#F5F5F4',
-  secondaryForeground: '#7A726C',
+  // Secondary (Safzan Purple)
+  secondary: '#7C3AED',
+  secondaryForeground: '#FFFFFF',
 
   // Muted
-  muted: '#F5F5F4',
-  mutedForeground: '#7A726C',
+  muted: '#F3F4F6',
+  mutedForeground: '#6B7280',
 
-  // Accent
-  accent: '#F5F5F4',
-  accentForeground: '#7A726C',
+  // Accent (Violet)
+  accent: '#A855F7',
+  accentForeground: '#FFFFFF',
 
   // Destructive (Error/Danger)
-  destructive: '#F90606',
-  destructiveForeground: '#FAFAF9',
+  destructive: '#EF4444',
+  destructiveForeground: '#FFFFFF',
 
-  // Success (Additional for mobile)
-  success: '#2A9D8F',
+  // Success
+  success: '#22C55E',
   successForeground: '#FFFFFF',
 
-  // Warning (Additional for mobile)
-  warning: '#F4A261',
-  warningForeground: '#1F2A2D',
+  // Warning
+  warning: '#F59E0B',
+  warningForeground: '#FFFFFF',
 
-  // Info (Additional for mobile)
+  // Info
   info: '#3B82F6',
   infoForeground: '#FFFFFF',
 
   // Border & Input
-  border: '#E7E5E4',
-  input: '#E7E5E4',
+  border: '#E5E7EB',
+  input: '#E5E7EB',
   inputBackground: '#FFFFFF',
 
   // Focus Ring
-  ring: '#CDC713',
+  ring: '#2563EB',
 
   // Sidebar
-  sidebarBackground: '#F7F7F7',
-  sidebarForeground: '#6C5A51',
-  sidebarPrimary: '#75710B',
-  sidebarPrimaryForeground: '#FAFAF9',
-  sidebarAccent: '#C2C2BC',
-  sidebarAccentForeground: '#000000',
-  sidebarBorder: '#E0DDDC',
-  sidebarRing: '#BFBA12',
+  sidebarBackground: '#F8FAFC',
+  sidebarForeground: '#4B5563',
+  sidebarPrimary: '#2563EB',
+  sidebarPrimaryForeground: '#FFFFFF',
+  sidebarAccent: '#E5E7EB',
+  sidebarAccentForeground: '#111827',
+  sidebarBorder: '#D1D5DB',
+  sidebarRing: '#1D4ED8',
 
   // Charts
-  chart1: '#CDC713',
-  chart2: '#F5F5F4',
-  chart3: '#F5F5F4',
-  chart4: '#F5F5F4',
+  chart1: '#2563EB',
+  chart2: '#7C3AED',
+  chart3: '#A855F7',
+  chart4: '#60A5FA',
   chart5: '#FFFFFF',
 
   // Text variants
-  textPrimary: '#0C0A09',
-  textSecondary: '#7A726C',
-  textTertiary: '#A8A29E',
-  textDisabled: '#D6D3D1',
+  textPrimary: '#111827',
+  textSecondary: '#6B7280',
+  textTertiary: '#9CA3AF',
+  textDisabled: '#D1D5DB',
 
   // Overlay
   overlay: 'rgba(0, 0, 0, 0.5)',
@@ -98,81 +98,81 @@ export const lightColors = {
  */
 export const darkColors = {
   // Core colors
-  background: '#262626',
-  foreground: '#C6BAB3',
+  background: '#09090B',
+  foreground: '#F4F4F5',
 
   // Card
-  card: '#404040',
-  cardForeground: '#C6BAB3',
+  card: '#18181B',
+  cardForeground: '#F4F4F5',
 
   // Popover
-  popover: '#262626',
-  popoverForeground: '#C6BAB3',
+  popover: '#09090B',
+  popoverForeground: '#F4F4F5',
 
-  // Primary (Safzan Green)
-  primary: '#275430',
-  primaryForeground: '#F8FAFC',
-  primaryLight: '#5A8A65',
-  primaryDark: '#1B3721',
+  // Primary (Safzan Blue)
+  primary: '#2563EB',
+  primaryForeground: '#F4F4F5',
+  primaryLight: '#60A5FA',
+  primaryDark: '#1D4ED8',
 
-  // Secondary
-  secondary: '#53534B',
-  secondaryForeground: '#F3F2F1',
+  // Secondary (Safzan Purple)
+  secondary: '#7C3AED',
+  secondaryForeground: '#F4F4F5',
 
   // Muted
-  muted: '#46463F',
-  mutedForeground: '#F3F2F1',
+  muted: '#27272A',
+  mutedForeground: '#A1A1AA',
 
-  // Accent
-  accent: '#53534B',
-  accentForeground: '#F3F2F1',
+  // Accent (Violet)
+  accent: '#A855F7',
+  accentForeground: '#F4F4F5',
 
   // Destructive (Error/Danger)
-  destructive: '#630303',
-  destructiveForeground: '#F8FAFC',
+  destructive: '#EF4444',
+  destructiveForeground: '#F4F4F5',
 
   // Success
-  success: '#2A9D8F',
+  success: '#22C55E',
   successForeground: '#FFFFFF',
 
   // Warning
-  warning: '#F4A261',
-  warningForeground: '#1F2A2D',
+  warning: '#F59E0B',
+  warningForeground: '#FFFFFF',
 
   // Info
   info: '#60A5FA',
   infoForeground: '#FFFFFF',
 
   // Border & Input
-  border: '#6C6460',
-  input: '#6C6460',
-  inputBackground: '#404040',
+  border: '#27272A',
+  input: '#27272A',
+  inputBackground: '#18181B',
 
   // Focus Ring
-  ring: '#CDC713',
+  ring: '#2563EB',
 
   // Sidebar
-  sidebarBackground: '#121212',
-  sidebarForeground: '#9F8A7F',
-  sidebarPrimary: '#75710B',
-  sidebarPrimaryForeground: '#F8FAFC',
-  sidebarAccent: '#3E3E38',
-  sidebarAccentForeground: '#F3F2F1',
-  sidebarBorder: '#56504D',
-  sidebarRing: '#A8A310',
+  sidebarBackground: '#09090B',
+  sidebarForeground: '#A1A1AA',
+  sidebarPrimary: '#2563EB',
+  sidebarPrimaryForeground: '#F4F4F5',
+  sidebarAccent: '#27272A',
+  sidebarAccentForeground: '#F4F4F5',
+  sidebarBorder: '#3F3F46',
+  sidebarRing: '#1D4ED8',
 
   // Charts
-  chart1: '#413F06',
-  chart2: '#ADADA4',
-  chart3: '#ADADA4',
-  chart4: '#ADADA4',
-  chart5: '#262626',
+  chart1: '#2563EB',
+  chart2: '#7C3AED',
+  chart3: '#A855F7',
+  chart4: '#60A5FA',
+  chart5: '#18181B',
 
   // Text variants
-  textPrimary: '#C6BAB3',
-  textSecondary: '#F3F2F1',
-  textTertiary: '#A8A29E',
-  textDisabled: '#78716C',
+  textPrimary: '#F4F4F5',
+  textSecondary: '#A1A1AA',
+  textTertiary: '#71717A',
+  textDisabled: '#52525B',
 
   // Overlay
   overlay: 'rgba(0, 0, 0, 0.7)',

@@ -7,8 +7,8 @@
 
 import { darkColors, lightColors } from './palette';
 
-const tintColorLight = lightColors.primary; // #275430 - Safzan Green
-const tintColorDark = lightColors.primary;  // #275430 - Same in dark mode
+const tintColorLight = lightColors.primary; // #2563EB - Safzan Blue
+const tintColorDark = lightColors.primary;  // #2563EB - Same in dark mode
 
 export default {
   light: {
